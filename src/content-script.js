@@ -1,8 +1,8 @@
-chrome.runtime.onMessage.addListener(() => {
-  hideLowReviewedItems();
+chrome.runtime.onMessage.addListener((req) => {
+  hideLowReviewedItems(req.minRatings);
 });
 
-function hideLowReviewedItems() {
+function hideLowReviewedItems(minRatings) {
   const products = getProducts();
 
   products.forEach((product) => {
@@ -12,7 +12,7 @@ function hideLowReviewedItems() {
     }
     const ratingCount = Number(ratingSpan.getAttribute('aria-label').replaceAll(',', ''));
 
-    if (ratingCount < 1000) {
+    if (ratingCount < minRatings) {
       product.style.display = 'none';
     } else {
       product.style.visibility = 'visible';

@@ -6,6 +6,8 @@
 
 A Chrome Extension that runs on Amazon search results pages. When you press the extension button, it hides all products with less than 1000 ratings.
 
+![Screenshot of the app](./screenshot.png)
+
 ### Built with
 
 - Chrome Extensions
