@@ -54,13 +54,19 @@ npm run dev
 
 2. Press the extension icon in the top left.
 
-The search results on this page will now only include products with more than 1000 ratings.
+3. Enter a minimum number of ratings and press filter.
+
+The search results on this page will now only include products with more than e.g. 1000 ratings.
 
 ## Roadmap
 
-- [ ] Popup with min number of ratings input
+None
 
 ## Release History
 
+- v0.2.0
+  - Added Vue
+  - Popup
+  - Icon
 - v0.1.0
   - Initial design
