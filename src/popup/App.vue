@@ -74,6 +74,7 @@ main {
   button {
     min-width: 12rem;
     padding: 0.25rem 1rem;
+    cursor: pointer;
     background: #ffd814;
     border: none;
     border-radius: 128px;

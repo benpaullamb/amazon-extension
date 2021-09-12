@@ -60,7 +60,7 @@ The search results on this page will now only include products with more than e.
 
 ## Roadmap
 
-None
+- [ ] Regex title matcher
 
 ## Release History
 
